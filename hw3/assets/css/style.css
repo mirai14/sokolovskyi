@@ -1,0 +1,56 @@
+
+    body {
+        width: 600px;
+        background: linear-gradient(to bottom, #1cf602, #00cf2e, #00a939, #14843a, #206036, #1e5034, #1f3f30, #212f29, #202c28, #1f2927, #1e2625, #1e2323);
+        background-size: cover;
+    }
+    
+    h1 {
+        font-size: 40px;
+        color: #f7f6f6;
+        margin-top: 1%;
+        text-align: center;
+        text-shadow: 3px 3px 6px white;
+
+    }
+    
+    .container {
+        text-align: center;
+        margin: 0px auto;
+    }
+
+
+    p {
+        font-size: 20px;
+        color: #f7f5f5;
+        margin-left: 15%;
+        margin-right: 15%;
+        text-align:justify;
+
+    }
+
+    .img1 {
+        width: 500px;
+        display: block;
+        margin: 0 auto;
+        
+    }
+
+    
+    .a1 {
+        font-size: 20px;
+        color: white;
+        font-weight: bold;
+        text-decoration-line: none;
+        background-color: rgb(56, 240, 0);
+        box-shadow: 3px 3px 6px rgb(56, 240, 0);
+        border-radius: 5px;
+        padding: 1%;
+        display: inline-block;
+        text-align: center;
+
+    }
+
+
+
+

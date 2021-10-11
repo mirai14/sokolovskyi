@@ -1,0 +1,162 @@
+
+@font-face {
+    font-family: 'alfaslab';
+    src: url(../fonts/alfaslab.ttf);
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'cairo';
+    src: url(../fonts/cairoreg.ttf);
+    font-display: swap;
+    font-style:normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'carter';
+    src: url(../fonts/carterreg.ttf);
+    font-display: swap;
+    font-style:normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'caveat';
+    src: url(../fonts/caveatreg.ttf);
+    font-display: swap;
+    font-style:normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'cookie';
+    src: url(../fonts/cookiereg.ttf);
+    font-display: swap;
+    font-style:normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'dmmono';
+    src: url(../fonts/dmmonoreg.ttf);
+    font-display: swap;
+    font-style:normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'mali';
+    src: url(../fonts/malireg.ttf);
+    font-display: swap;
+    font-style:normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'oswald';
+    src: url(../fonts/oswaldreg.ttf);
+    font-display: swap;
+    font-style:normal;
+    font-weight: 400;
+}
+
+html, body {
+    font-size: 20px;
+    --main-color: white;
+}
+
+body {
+    margin: 0px auto;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.btm {
+    margin-left: 0.5%;
+    margin-top: 0.5%;
+    width: 20px;
+}
+
+.container {
+width: 40rem;
+margin: -4rem auto;
+min-height: 100vh;
+border-left: 2em solid red;
+border-right: 2em solid blue;
+background-image: url(../img/way1.jpg);
+background-size: cover;
+line-height: 0.5;
+text-align: center;
+
+}
+
+
+.h1 {
+    font-family: 'Alfa Slab One', cursive;
+    color: red;
+    font-size: 1.5rem;
+    text-shadow: red 0px 3px 3px ;
+    line-height: 1;
+    padding: 2rem;
+}
+
+.top1 {
+    font-family: 'Cairo', sans-serif;
+    color: gold;
+    font-size: 1.5rem;
+    line-height: 1;
+}
+
+.top2 {
+    font-family: 'Carter One', cursive;
+    color: silver;
+    font-size: 1.5rem;
+    line-height: 1;
+}
+
+.top3 {
+    font-family: 'Caveat', cursive;
+    color: goldenrod;
+    font-size: 1.5rem;
+    line-height: 1;
+}
+
+.mid1 {
+    font-family: 'Cookie', cursive;
+    color: var(--main-color);
+    font-size: 1.5rem;
+    line-height: 1;
+}
+
+.mid2 {
+    font-family: 'DM Mono', monospace;
+    color: var(--main-color);
+    font-size: 1rem;
+    line-height: 1;
+ 
+}
+
+.mid3 {
+    font-family: 'Mali', cursive;
+    color: black;
+    font-size: 1.5rem;
+    line-height: 1;
+    background-color: white;
+    transform: rotate(-8deg);
+
+}
+
+.h4 {
+    font-family: 'Oswald', sans-serif;
+    color: blueviolet;
+    font-size: 1rem;
+    line-height: 1;
+    text-align: right;
+}
+

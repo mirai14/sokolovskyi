@@ -1,0 +1,62 @@
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0px;
+        font-family:'Courier New', Courier, monospace;
+    }
+
+    .a1 {
+        font-size: 20px;
+        color: white;
+        text-decoration-line: none;
+        text-shadow: 3px 3px 6px white;
+    }
+
+    .btm {
+        margin-left: 0.5%;
+        margin-top: 0.5%;
+        width: 20px;
+    }
+
+    .mm {
+        width: clamp(500px, 40vw, 1100px);
+        margin: 0px auto;
+
+    }
+
+    .container {
+        width: clamp(500px, 70vw, 1100px);
+        margin: 0px auto;
+        
+    }
+
+
+    header {
+        background-image: url(../img/head.jpg);
+        background-size: cover;
+        overflow: auto;
+        color: white;
+    }
+
+    .img1 {
+        max-width: 100%;
+    }
+
+    #menu {
+        display:inline-block;
+    }
+    
+    p {
+        text-align: justify;
+    }
+
+    .submenu {
+        display:inline-block;
+    }
+
+
+
+   
+

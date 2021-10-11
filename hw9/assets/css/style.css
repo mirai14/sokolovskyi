@@ -1,0 +1,39 @@
+
+* {
+    box-sizing: border-box;
+
+}
+
+html, body {
+    font-size: 14px;
+    font-family: 'roboto';
+}
+
+
+@font-face {
+    font-family: "roboto";
+    src: url(/hw9/assets/fonts/RobotoSlab-Regular.ttf);
+}
+
+@font-face {
+    font-family: "roboto-bold";
+    src: url(/hw9/assets/fonts/RobotoSlab-Bold.ttf);
+}
+
+
+.roboto-bold {
+    font-family: "roboto-bold";
+}
+
+.btm {
+    margin-left: 6px;
+    margin-top: 3px;
+    width: 20px;
+}
+
+
+
+
+
+
+
