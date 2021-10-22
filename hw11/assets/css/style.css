@@ -1,0 +1,158 @@
+
+* {
+    box-sizing: border-box;
+
+}
+
+html, body {
+    font-size: 14px;
+    font-family: 'jura';
+}
+
+@font-face {
+    font-family: 'jura';
+    src: url(../fonts/Jura-VariableFont_wght.ttf);
+}
+
+.btm {
+    margin-left: 6px;
+    margin-top: 3px;
+    width: 20px;
+}
+
+.mainbg {
+    filter: grayscale(50%);
+    transition: ease 2s;
+}
+
+.mainbg:hover {
+    filter: grayscale(0%);
+}
+
+.menutopcell {
+    border-left: 1px solid rgb(212, 210, 210);
+}
+
+
+.categ {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 180px;
+    grid-gap: 24px;
+    text-align: center;
+}
+
+.categcell1 {
+    background-image: url(../img/cardiovasc1.jpg);
+    background-size:cover;
+    filter: grayscale(70%);
+    transition: ease 2s;
+}
+
+.categcell1:hover {
+    background-image: url(../img/cardiovasc1.jpg);
+    background-size:cover;
+    text-decoration: underline;
+    filter: grayscale(0%);
+}
+
+.categcell2 {
+    background-image: url(../img/infection1.jpg);
+    background-size:cover;
+    filter: grayscale(70%);
+    transition: ease 2s;
+}
+
+.categcell2:hover {
+    background-image: url(../img/infection1.jpg);
+    background-size:cover;
+    text-decoration: underline;
+    filter: grayscale(0%);
+}
+
+
+.categcell3 {
+    background-image: url(../img/allergy.jpg);
+    background-size:cover;
+    filter: grayscale(70%);
+    transition: ease 2s;
+}
+
+.categcell3:hover {
+    background-image: url(../img/allergy.jpg);
+    background-size:cover;
+    text-decoration: underline;
+    filter: grayscale(0%);
+}
+
+.stuffmain {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: "f1 f2 f3 f4" 
+                         "q w e r";
+    grid-gap: 24px;
+                         
+    
+}
+
+.stuff1 {
+    grid-area: f1;
+}
+
+.stuff2 {
+    grid-area: f2;
+}
+
+.stuff3 {
+    grid-area: f3;
+}
+
+.stuff4 {
+    grid-area: f4;
+}
+
+.stuffq {
+    grid-area: q;
+}
+
+.stuffw {
+    grid-area: w;
+}
+
+.stuffe {
+    grid-area: e;
+}
+
+.stuffr {
+    grid-area: r;
+}
+
+.stuffimg {
+    width: 280px;
+}
+
+.menubottom {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 24px;
+}
+
+.menubottomc1, .menubottomc2, .menubottomc3, .menubottomc4 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
