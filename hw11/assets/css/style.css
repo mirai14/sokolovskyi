@@ -20,6 +20,10 @@ html, body {
     width: 20px;
 }
 
+.container {
+    min-height: 100vh;
+}
+
 .mainbg {
     filter: grayscale(50%);
     transition: ease 2s;
