@@ -37,7 +37,6 @@ html, body {
     border-left: 1px solid rgb(212, 210, 210);
 }
 
-
 .categ {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -96,8 +95,7 @@ html, body {
     grid-template-areas: "f1 f2 f3 f4" 
                          "q w e r";
     grid-gap: 24px;
-                         
-    
+                        
 }
 
 .stuff1 {
@@ -133,7 +131,7 @@ html, body {
 }
 
 .stuffimg {
-    width: 280px;
+    width: 100%;
 }
 
 .menubottom {
