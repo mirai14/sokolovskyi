@@ -1,0 +1,145 @@
+
+.container {
+    width: 1000px;
+    height: 1000px;
+    background-image: url(/assets/img/road.png);
+    position: absolute;
+    transform: translateX(50%);
+}
+
+.startfinish {
+    padding-top: 42px;
+}
+
+#car {
+    position: absolute;
+    top: 84px;
+    left: 540px;
+    transform: scaleX(-1);
+    animation-name: car;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+@keyframes car {
+    0% {
+        position: absolute;
+        top: 84px;
+        left: 540px;
+        transform: rotatex(0deg) scaleX(-1);
+    }
+    10% {
+        position: absolute;
+        top: 84px;
+        left: 140px;
+        transform: rotate(0deg) scaleX(-1);
+    }
+
+    14% {
+        position: absolute;
+        top: 100px;
+        left: 110px;
+        transform: rotate(-30deg) scaleX(-1);
+    }
+    18% {
+        position: absolute;
+        top: 120px;
+        left: 80px;
+        transform: rotate(-45deg) scaleX(-1);
+    }
+    22% {
+        position: absolute;
+        top: 160px;
+        left: 48px;
+        transform: rotate(-90deg) scaleX(-1);
+    }
+
+    34% {
+        position: absolute;
+        top: 760px;
+        left: 48px;
+        transform: rotate(-90deg) scaleX(-1);
+    }
+
+    38% {
+        position: absolute;
+        top: 790px;
+        left: 68px;
+        transform: rotate(-120deg) scaleX(-1);
+    }
+    42% {
+        position: absolute;
+        top: 820px;
+        left: 98px;
+        transform: rotate(-150deg) scaleX(-1);
+    }
+    46% {
+        position: absolute;
+        top: 840px;
+        left: 130px;
+        transform: rotate(-180deg) scaleX(-1);
+    }
+    
+    58% {
+        position: absolute;
+        top: 840px;
+        left: 740px;
+        transform: rotate(-180deg) scaleX(-1);
+    }
+
+    62% {
+        position: absolute;
+        top: 810px;
+        left: 770px;
+        transform: rotate(-210deg) scaleX(-1);
+    }
+    66% {
+        position: absolute;
+        top: 770px;
+        left: 790px;
+        transform: rotate(-240deg) scaleX(-1);
+    }
+    70% {
+        position: absolute;
+        top: 740px;
+        left: 805px;
+        transform: rotate(-270deg) scaleX(-1);
+    }
+
+    82% {
+        position: absolute;
+        top: 160px;
+        left: 805px;
+        transform: rotate(-270deg) scaleX(-1);
+    }
+
+    86% {
+        position: absolute;
+        top: 120px;
+        left: 770px;
+        transform: rotate(-300deg) scaleX(-1);
+    }
+    90% {
+        position: absolute;
+        top: 100px;
+        left: 740px;
+        transform: rotate(-330deg) scaleX(-1);
+    }
+    94% {
+        position: absolute;
+        top: 84px;
+        left: 710px;
+        transform: rotate(-360deg) scaleX(-1);
+    }
+
+    100% {
+        position: absolute;
+        top: 84px;
+        left: 540px;
+        transform: rotatex(-360deg) scaleX(-1);
+    }    
+
+
+}
