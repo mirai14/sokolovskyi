@@ -1,0 +1,39 @@
+
+html, body {
+    font-size: 8px;
+    font-family: 'roboto';
+}
+
+.ph1 {
+    width: 120px;
+    filter:blur(100%);
+}
+
+@font-face {
+    font-family: "roboto";
+    src: url(/hw9/assets/fonts/RobotoSlab-Regular.ttf);
+}
+
+@font-face {
+    font-family: "roboto-bold";
+    src: url(/hw9/assets/fonts/RobotoSlab-Bold.ttf);
+}
+
+.tabl {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+}
+
+
+
+@media (min-width: 992px) {
+
+    html, body {
+        font-size: 14px;
+    }
+
+    .ph1 {
+        width: 200px;
+    }
+}
