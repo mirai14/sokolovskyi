@@ -21,7 +21,7 @@ html, body {
 
 .tabl {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(8, 1fr);
     grid-template-rows: auto;
 }
 
