@@ -1,0 +1,30 @@
+
+html, body {
+    font-size: 15px;
+    font-family: 'jura';
+}
+
+@font-face {
+    font-family: 'jura';
+    src: url(../fonts/Jura-VariableFont_wght.ttf);
+}
+
+.phone1 {
+    width: 150px;
+}
+
+.container {
+    width: 450px;
+}
+
+small + small {
+    display: none;
+}
+
+input:valid + small {
+    display: none;
+}
+
+input:valid + small + small {
+    display: block;
+}
