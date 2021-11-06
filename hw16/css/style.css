@@ -1,0 +1,172 @@
+
+* {
+    font-family: 'jura';
+    font-size: 8px;
+}
+
+@font-face {
+    font-family: 'jura';
+    src: url(../fonts/Jura-VariableFont_wght.ttf);
+}
+
+
+.text-emerald {
+    color: #00cc92;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-image: linear-gradient(to right, #009b73, #00b382, #00cc92, #00e5a0, #00ffaf);
+}
+
+.main {
+    margin: 55px 5px auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+    gap: 1px;
+    grid-template-areas: "photo about"
+                         "work  work"
+                         "education education"
+}
+
+h1 {
+    text-shadow: 1px 1px 4px white;
+}
+
+.photo {
+    grid-area: photo;
+    border-bottom: 1px solid #292b2c;
+    border-right: 1px solid #292b2c;
+}
+
+.about {
+    grid-area: about;
+    border-bottom: 1px solid #292b2c;
+    border-left: 1px solid #292b2c;
+    
+}
+
+.work {
+    grid-area: work;
+    border-top: 1px solid #292b2c;
+    border-bottom: 1px solid #292b2c;
+    
+}
+
+.education {
+    grid-area: education;
+    border-top: 1px solid #292b2c;
+    border-bottom: 1px solid #292b2c;
+}
+
+
+
+.photo1 {
+    width: 110px;
+}
+
+@media (min-width: 768px) {
+
+    * {
+        font-family: 'jura';
+        font-size: 16px;
+    }
+
+    aside {
+        width: 5%;
+        height: 1000px;
+        position:fixed;
+        margin-top: 100px;
+        background-image: linear-gradient(to bottom, #009b73, #00b382, #00cc92, #00e5a0, #00ffaf);
+    }
+    
+    .head {
+        width: 100%;
+        margin-left: 5%;
+    }
+
+    header {
+        width: 100%;
+        height: 100px;
+        position: fixed;
+        top: 0;
+        left: 5%;
+        z-index: 1000;
+        background-image: linear-gradient(to right, #009b73, #00b382, #00cc92, #00e5a0, #00ffaf);
+    }
+    
+    .main {
+        margin: 110px 10px auto;
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        grid-template-rows: auto;
+        gap: 1px;
+        grid-template-areas: "photo work"
+                             "about education"
+        
+    }
+    
+    h1 {
+        text-shadow: 1px 1px 4px white;
+    }
+    
+    .photo {
+        grid-area: photo;
+        border-bottom: 1px solid #292b2c;
+        border-right: 1px solid #292b2c;
+    }
+    
+    .about {
+        grid-area: about;
+        border-top: 1px solid #292b2c;
+        border-right: 1px solid #292b2c;
+        border-left:none;
+        border-bottom:none;
+    }
+    
+    .work {
+        grid-area: work;
+        border-bottom: 1px solid #292b2c;
+        border-left: 1px solid #292b2c;
+        border-top:none;
+        border-right:none;
+    }
+    
+    .education {
+        grid-area: education;
+        border-top: 1px solid #292b2c;
+        border-left: 1px solid #292b2c;
+        border-right:none;
+        border-bottom:none;
+    }
+    
+    .work1 {
+        filter: opacity(0);
+        transition: 0.5s;
+    }
+    
+    .work:hover > .work1 {
+        filter: opacity(1);
+    }
+    
+    .education1 {
+        filter: opacity(0);
+        transition: 0.5s;
+    }
+    
+    .education:hover > .education1 {
+        filter: opacity(1);
+    }
+    
+    .photo1 {
+        width: 220px;
+    }
+}
+
+
