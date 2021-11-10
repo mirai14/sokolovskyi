@@ -65,13 +65,19 @@ h1 {
     border-bottom: 1px solid #292b2c;
 }
 
-
-
 .photo1 {
     width: 110px;
 }
 
 @media (min-width: 768px) {
+
+    * {
+        font-family: 'jura';
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 992px) {
 
     * {
         font-family: 'jura';
@@ -151,7 +157,7 @@ h1 {
         transition: 0.5s;
     }
     
-    .work:hover > .work1 {
+    .topwork:hover ~ .work1 {
         filter: opacity(1);
     }
     
@@ -160,12 +166,43 @@ h1 {
         transition: 0.5s;
     }
     
-    .education:hover > .education1 {
+    .topeducation:hover ~ .education1 {
         filter: opacity(1);
     }
     
     .photo1 {
         width: 220px;
+    }
+
+    h2:hover {
+        font-weight: 600;
+    }
+
+    h2:hover > .icondown {
+        animation: none;
+        opacity: 0;
+    }
+
+    .icondown {
+        animation-name: icondown;
+        animation-duration: 1.2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+    }
+
+    @keyframes icondown {
+        0% {
+            opacity: 1;
+        }
+
+        50% {
+            opacity: 0.2;
+        }
+
+        100% {
+            opacity: 1;
+        }
+        
     }
 }
 
