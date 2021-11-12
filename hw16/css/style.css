@@ -156,6 +156,10 @@ h1 {
         filter: opacity(0);
         transition: 0.5s;
     }
+
+    .work1:active {
+        filter: opacity(1);
+    }
     
     .topwork:hover ~ .work1 {
         filter: opacity(1);
@@ -166,6 +170,10 @@ h1 {
         transition: 0.5s;
     }
     
+    .education1:active {
+        filter: opacity(1);
+    }
+
     .topeducation:hover ~ .education1 {
         filter: opacity(1);
     }
