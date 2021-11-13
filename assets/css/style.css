@@ -20,12 +20,17 @@ html, body {
     src: url(/hw9/assets/fonts/RobotoSlab-Bold.ttf);
 }
 
-.tabl {
+.htmlcss  {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: auto;
 }
 
+.jss  {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: auto;
+}
 
 
 @media (min-width: 992px) {
