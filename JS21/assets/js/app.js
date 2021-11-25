@@ -7,31 +7,35 @@
     //freezingDays
 
     let freezing = 0;
+    let melting = 0
     
     for(let i = 0; i < winterDays.length - 1; i++){
         if(winterDays[i] < 0 && winterDays[i+1] >= 0){
             freezing++;
         }  
+
+        if(winterDays[i] >= 0 && winterDays[i+1] < 0){
+            melting++;
+        }  
     }
 
     console.log(`Количество замерзаний: ${freezing}`);
+    console.log(`Количество оттаиваний: ${melting}`);
 
     //freezingTrend
 
     let freezingTrend = 0;
-    let freezingTrendMax = 0;
+    let freezingTrendNumber = 0;
 
     for (let i = 0; i < winterDays.length - 1; i++){    
-        if(winterDays[i] < 0){
-            freezingTrend++;  
+        if(winterDays[i] < 0 && winterDays[i+1] < 0){
+            freezingTrend = freezingTrend + 1;  
         }else{
-            freezingTrend = 0;
-        }
-        
-        if(freezingTrend > freezingTrendMax){
-            freezingTrendMax = freezingTrend;
+            freezingTrend = 1;
+        }if(freezingTrend > freezingTrendNumber){
+            freezingTrendNumber = freezingTrend;
         }
     }
 
-    console.log(`Самый длинный период заморозков: ${freezingTrendMax} дней`);
+    console.log(`Самый длинный период заморозков: ${freezingTrendNumber} дней`);
 
