@@ -10,11 +10,11 @@
     let melting = 0
     
     for(let i = 0; i < winterDays.length - 1; i++){
-        if(winterDays[i] < 0 && winterDays[i+1] >= 0){
+        if(winterDays[i] >= 0 && winterDays[i+1] < 0){
             freezing++;
         }  
 
-        if(winterDays[i] >= 0 && winterDays[i+1] < 0){
+        if(winterDays[i] < 0 && winterDays[i+1] >= 0){
             melting++;
         }  
     }
