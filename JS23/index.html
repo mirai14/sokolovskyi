@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вгадай число</title>
+
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/fa/css/all.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <script src="./assets/js/app.js"></script>
+
+</head>
+<body>
+    
+    <div class="container">
+
+        <h1 class='mb-5'>Вгадай число від 1 до 100</h1>
+
+        <h3 class='mb-5'>Залишилось спроб: <output id='attempt'>10</output></h3>
+
+        <h2 class='text-center mb-5 text-danger'><output id='main'>?</output></h2>
+
+        <div class="form-group d-flex align-items-center gap-3 mb-5">
+            <label for="">Ваш&nbsp;варіант:</label>
+            <input type="number" class="input-group p-2 col" id="numberInput" min="1" max="100">
+            <button onclick="game()" class="btn btn-outline-dark col p-3">Відповісти</button>
+        </div>
+
+    <h3><output id='number'></output></h3>
+
+    </div>
+
+    <output id='helper'>-</output>
+
+</body>
+</html>
