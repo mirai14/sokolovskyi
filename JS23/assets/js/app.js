@@ -5,11 +5,11 @@
     secret = secret + 1;
 
     function game(){
-        for(let i = 10; i >= 0; i = i - 1){
+        for(let i = 1; i <= 10; i++){
 
             let option = +numberInput.value;
 
-            attempt.innerHTML = (`${i}`);
+            attempt.innerHTML = (`${10-i}`);
 
             if(secret == option){
                 main.innerHTML = (`${option}`);
