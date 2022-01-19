@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USA Federal Income Tax</title>
+
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/fa/css/all.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <script src="./assets/js/app.js"></script>
+
+</head>
+<body>
+    
+    <div class="container">
+
+        <h1 class='mb-3'>USA Federal Income Tax</h1>
+
+        <h3 class='mb-5'>(2022 for Single)</h3>
+
+        <div class="form-group d-flex align-items-center gap-3 mb-3">
+            <label for="sumInput">Your Income (in USD)</label>
+            <input oninput='calc()' type="number" class="input-group p-2 col" id="sInput" min="1" max="9999999999">
+        </div>
+
+        <button onclick="calc()" class="btn btn-outline-dark mb-3 w-100 fs-4">Calculate</button>
+
+        <div class="form-group d-flex align-items-center gap-3 mb-3">
+            <label for="">Your FIT Sum</label>
+            <output id='sOutput' class="p-2"></output></h3>
+        </div>
+
+    </div>
+
+</body>
+</html>
