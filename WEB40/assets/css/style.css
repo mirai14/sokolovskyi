@@ -12,12 +12,12 @@ html, body {
 
 @font-face {
     font-family: "roboto";
-    src: url(/hw9/assets/fonts/RobotoSlab-Regular.ttf);
+    src: url(/assets/fonts/RobotoSlab-Regular.ttf);
 }
 
 @font-face {
     font-family: "roboto-bold";
-    src: url(/hw9/assets/fonts/RobotoSlab-Bold.ttf);
+    src: url(/assets/fonts/RobotoSlab-Bold.ttf);
 }
 
 .htmlcss  {
