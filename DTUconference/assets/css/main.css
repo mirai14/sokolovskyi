@@ -229,7 +229,7 @@ ul li {
 }
 
 .bg-image-1 {
-  background: radial-gradient(circle, #1eaec7, #009fc8, #008fc7, #007fc3, #006dbb, #166fbe, #2371c0, #2d73c3, #3c8bd3, #51a2e1, #6abaef, #85d1fc);
+  background: linear-gradient(to right, #28aae6, #239bd5, #1d8dc4, #177fb3, #1071a2, #0d6797, #095e8d, #065582, #074d7b, #084673, #093e6c, #0a3764);
 }
 
 
@@ -260,7 +260,7 @@ ul li {
   border: 0;
   margin: 0;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 0;
   background-color: #000;
   -webkit-transition: all 0.2s linear 0s;
           transition: all 0.2s linear 0s;
@@ -437,7 +437,7 @@ ul li {
  */
 .schedule-box {
   position: relative;
-  background-color: #000;
+  background: linear-gradient(to right, #28aae6, #239bd5, #1d8dc4, #177fb3, #1071a2, #0d6797, #095e8d, #065582, #074d7b, #084673, #093e6c, #0a3764);;
   color: #fff;
   text-align: center;
   padding: 50px 0;
@@ -521,7 +521,7 @@ ul li {
 }
 .faq .panel-default > .panel-heading {
   color: #FFF;
-  background-color: #000000;
+  background: linear-gradient(to right, #28aae6, #239bd5, #1d8dc4, #177fb3, #1071a2, #0d6797, #095e8d, #065582, #074d7b, #084673, #093e6c, #0a3764);;
   border-color: #000;
   border-radius: 0;
   padding: 0;
@@ -612,22 +612,16 @@ ul li {
   width: 250px;
 }
 
-.nidutitle {
-  color:rgb(37, 170, 226); 
-  font-size: 16px;
-  font-weight:400; 
-  line-height: 90%; 
-  margin: 14px;
-}
-
 @media (min-width: 992px) {
-  .nidutitle {
-    color:rgb(37, 170, 226); 
-    font-weight:400; 
-    line-height: 97%; 
-    margin: 20px;
-  }
   .dtulogo {
     width: 500px;
   }
+}
+
+.dtugrad {
+  background: linear-gradient(to right, #28aae6, #239bd5, #1d8dc4, #177fb3, #1071a2, #0d6797, #095e8d, #065582, #074d7b, #084673, #093e6c, #0a3764);
+}
+
+.textwhite {
+  color: #FFF;
 }
