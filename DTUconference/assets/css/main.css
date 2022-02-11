@@ -5,14 +5,19 @@
 /* 
  * 2.0 Global Style
  */
+ @font-face {
+  font-family: 'Neris';
+  src: url('../fonts/neris/Neris-Light.otf');
+}
+
 html {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Neris', 'Roboto', sans-serif;
   font-size: 16px;
 }
 
 body {
   color: #4e4e4e;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Neris', 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 1.6;
@@ -320,7 +325,7 @@ ul li {
   min-height: 100vh;
   position: relative;
   text-align: center;
-  background: url(../images/backgrounds/bluegrey.jpg) no-repeat center center/cover;
+  background: url(../images/backgrounds/dtutitle1.png) no-repeat center center/cover;
   display: table;
 }
 .site-header::before {
@@ -330,7 +335,7 @@ ul li {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.25);
 }
 .site-header .intro {
   color: #fff;
@@ -604,7 +609,7 @@ ul li {
 }
 
 .dtulogo {
-  width: 9rem;
+  width: 500px;
 }
 
 .nidutitle {
