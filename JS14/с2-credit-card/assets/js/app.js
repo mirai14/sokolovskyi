@@ -24,13 +24,15 @@ function cardInfo(){
     let visa = ['4'];
     let mastercard = ['51','52','53','54','55'];
     let maestro = ['5018','5020','5038','5893','6304','6759','6761','6762','6763','676770','676774'];
+    
+    
 
     if (isCorrect == true){
 
         if( visa.includes(inputCard.slice(0,1)) || visa.includes(inputCard.slice(0,4)) || visa.includes(inputCard.slice(0,6)) ){
             outInfo.innerHTML = (`Card (${inputCard}) is VISA`);
-
-        }else if( mastercard.includes(inputCard.slice(0,2) || (inputCard.slice(0,4) >= 2221 && inputCard.slice(0,4) <= 2720)) ){
+                                                                
+        }else if( (mastercard.includes(inputCard.slice(0,2)) || ((inputCard.slice(0,4) >= 2221) && (inputCard.slice(0,4) <= 2720)))){
             outInfo.innerHTML = (`Card (${inputCard}) is MasterCard`);
         
         }else if( maestro.includes(inputCard.slice(0,4)) || maestro.includes(inputCard.slice(0,6)) ){

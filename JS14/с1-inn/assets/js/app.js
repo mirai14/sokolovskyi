@@ -1,9 +1,21 @@
 
 function innInfo(){
 
-    let inputInn = inInn.value.toString().split('');
+    let inputInn = inInn.value.split('');
 
     let info = {};    
+
+    let sumCheck = (inputInn[0] * -1) + (inputInn[1] * 5) + (inputInn[2] * 7) + (inputInn[3] * 9) + (inputInn[4] * 4) + (inputInn[5] * 6)+ (inputInn[6] * 10) + (inputInn[7] * 5) + (inputInn[8] * 7);
+
+        sumCheck = sumCheck % 11;
+
+    let numberCheck = 0;
+    
+        if(sumCheck < 10){
+            numberCheck = sumCheck;
+        }else{
+            numberCheck = sumCheck % 10;
+        }
 
     if(inputInn[8] % 2 == 0){
         info['Sex'] = 'Жінка';
@@ -34,17 +46,13 @@ function innInfo(){
         
     info["Age"] = age;
 
-    let sumCheck = (inputInn[0] * -1) + (inputInn[1] * 5) + (inputInn[2] * 7) + (inputInn[3] * 9) + (inputInn[4] * 4) + (inputInn[5] * 6)+ (inputInn[6] * 10) + (inputInn[7] * 5) + (inputInn[8] * 7);  
-        
-        sumCheck = sumCheck - (Math.floor(sumCheck / 11) * 11);
-
-    if(inputInn.length != 10 && sumCheck != inputInn[9]){
+    if(inputInn.length != 10 || numberCheck != inputInn[9]){
         outInfo.innerHTML = ('Набраний номер не є дійсним');
     
     }else{
         outInfo.innerHTML = (`${info.Sex},
                               ${info.Birthday} року народження,
-                              повних літ - ${info.Age} `);
+                              повних літ - ${info.Age}`);
     }
 
 }
