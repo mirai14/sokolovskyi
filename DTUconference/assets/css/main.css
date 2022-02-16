@@ -419,6 +419,11 @@ ul li {
 .speaker img:hover {
   opacity: .7;
 }
+.speaker img {
+  width: 350px;
+  height: 300px;
+  object-fit: contain;
+}
 
 /* 
  * 6.4 Section: Registration & Pricing
