@@ -650,3 +650,10 @@ ul li {
   font-size: 12px;
   text-align: justify;
 }
+
+.contactbuttons {
+  justify-content: left;
+  display: grid;
+  grid-template-columns: 20rem;
+  grid-row-gap: 1rem;
+}
