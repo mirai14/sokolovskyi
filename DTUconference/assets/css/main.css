@@ -657,3 +657,17 @@ ul li {
   grid-template-columns: 20rem;
   grid-row-gap: 1rem;
 }
+
+.banner {
+  background-image: linear-gradient(to bottom, #09daee, #00e9d8, #45f5ae, #98fa78, #e5f840);
+  padding: 2rem;
+  margin: 10%;
+  
+}
+
+@media (min-width: 992px){
+  .banner {
+    margin: 15%;
+  }
+}
+
