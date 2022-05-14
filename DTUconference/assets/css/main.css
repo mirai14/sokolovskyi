@@ -674,17 +674,19 @@ ul li {
 
 .banner {
   background-image: linear-gradient(to bottom, #09daee, #00e9d8, #45f5ae, #98fa78, #e5f840);
-  padding: 0.5rem;
+  padding: 1rem;
   margin-left: 5%;
   margin-right: 5%;
   margin-top: 10%;
+  text-align: center;
+  color: white;
   
 }
 
 @media (min-width: 992px){
   .banner {
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 15%;
+    margin-right: 15%;
     margin-top: 3%;
   }
 }
