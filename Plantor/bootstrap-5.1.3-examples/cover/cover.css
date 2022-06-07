@@ -23,7 +23,6 @@ body {
 
 .cover-container {
   max-width: 42em;
-  
 }
 
 
@@ -34,7 +33,7 @@ body {
 .nav-masthead .nav-link {
   padding: .25rem 0;
   font-weight: 700;
-  color: rgba(255, 255, 255, 0.966);
+  color: rgba(255, 255, 255, .5);
   background-color: transparent;
   border-bottom: .25rem solid transparent;
 }
@@ -51,16 +50,4 @@ body {
 .nav-masthead .active {
   color: #fff;
   border-bottom-color: #fff;
-}
-
-.logo {
-  width: 250px;
-}
-
-.bg-purp {
-  background-color: #6667AB(0, 0, 0, 0.5);
-}
-
-.btn-donate {
-  background-color: orange;
 }
