@@ -38,6 +38,12 @@ main {
     }
 }
 
+@media (min-width: 1200px) {
+  main {
+    font-size: 24px;
+  }
+}
+
 .cover-container {
   max-width: 45em;
 }
