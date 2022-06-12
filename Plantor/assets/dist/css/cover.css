@@ -20,8 +20,8 @@
  */
 
 body {
-  font-family: 'Neris';
-  font-size: 16px;
+  font-family: 'Neris', sans-serif;
+  font-size: 15px;
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
 }
@@ -40,7 +40,7 @@ main {
 
 @media (min-width: 1200px) {
   main {
-    font-size: 24px;
+    font-size: 22px;
   }
 }
 
@@ -80,6 +80,20 @@ main {
   margin-top: -1rem;
   width: 300px;
 }
+
+.iinc {
+  margin-top: -0.55rem;
+  width: 55px;
+}
+
+@media (min-width: 768px) {
+  .iinc {
+    margin-top: -0.55rem;
+    width: 55px;
+  }
+}
+
+
 
 .bg1 {
   background-image: radial-gradient(circle, #53b3c7, #3795b3, #1f789d, #0d5b85, #05406c, #023361, #032555, #051848, #061447, #071047, #0a0b45, #0e0544);
