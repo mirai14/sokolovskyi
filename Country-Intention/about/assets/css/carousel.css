@@ -11,7 +11,7 @@ body {
   padding-top: 3rem;
   padding-bottom: 3rem;
   color: #5a5a5a;
-  font-family: 'Neris', sans-serif;
+  font-family: sans-serif;
 }
 
 
@@ -121,18 +121,12 @@ body {
 /* #514e9c (purple) #f7a600 (orange) #3aaa35 (green) */
 
 .logo {
-  width: 80px;
+  width: 60px;
 }
 
 @media (min-width: 768px) {
   .logo {
-    width: 100px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .logo {
-    width: 100px;
+    width: 60px;
   }
 }
 
@@ -153,10 +147,26 @@ body {
   }
 }
 
-@media (min-width: 1200px) {
-  .projectimg {
-    width: 500px;
-    height: 500px;
+.projectimg2 {
+  width: 350px;
+  margin: auto;
+}
+
+@media (min-width: 768px) {
+  .projectimg2 {
+    width: 600px;
+  }
+}
+
+
+.aboutimg {
+  width: 300px;
+  margin: auto;
+}
+
+@media (min-width: 768px) {
+  .aboutimg {
+    width: 300px;
   }
 }
 
