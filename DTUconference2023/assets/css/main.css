@@ -672,8 +672,8 @@ ul li {
   grid-row-gap: 1rem;
 }
 
-.banner {
-  background-image: linear-gradient(to bottom, #09daee, #00e9d8, #45f5ae, #98fa78, #e5f840);
+.banner1 {
+  background-image: linear-gradient(to bottom, #09daee, #00e9d8, #45f5ae);
   padding: 1rem;
   margin-left: 5%;
   margin-right: 5%;
@@ -684,7 +684,26 @@ ul li {
 }
 
 @media (min-width: 992px){
-  .banner {
+  .banner1 {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 3%;
+  }
+}
+
+.banner2 {
+  background-image: linear-gradient(to bottom, #09daee, #00e6df, #00efc5, #5cf6a1, #98fa78, #b3fa64, #cff951, #eaf63f, #eef53f, #f1f33f, #f5f23f, #f8f040);
+  padding: 1rem;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 10%;
+  text-align: center;
+  color: white;
+  
+}
+
+@media (min-width: 992px){
+  .banner2 {
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 3%;
